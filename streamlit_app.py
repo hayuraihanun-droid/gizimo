@@ -849,3 +849,6 @@ else:
     with tab5:
         st.subheader("Aplikasi di Dunia Nyata")
         st.success(data["Kegunaan"])
+
+
+
