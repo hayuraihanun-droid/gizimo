@@ -655,7 +655,7 @@ grid_tabel = [
 
 # Menggambar Tabel Periodik
 for baris in grid_tabel:
-    kolom = st.columns(18) # Membagi layar menjadi 18 kolom sama besar
+    kolom = st.columns(20) # Membagi layar menjadi 18 kolom sama besar
     for i, unsur in enumerate(baris):
         with kolom[i]:
             if unsur != "":  
